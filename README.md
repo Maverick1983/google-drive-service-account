@@ -13,11 +13,9 @@ The owner account appears to be the one who uploaded the file. In other words, i
 
 # Project Creation
 https://cloud.google.com/resource-manager/docs/creating-managing-projects
-
-# It’s possible create 30 project
-https://cloud.google.com/resource-manager/docs/creating-managing-projects 
-Every project can have 100 Service Account
-Every Service Account can have 15 GB in Drive
+- It’s possible create 30 project
+- Every project can have 100 Service Account
+- Every Service Account can have 15 GB in Drive
 
 # Total space on Drive with one Google Cloud account: (100 x 15) x 30 = 45 TB
 
@@ -43,5 +41,6 @@ roles/servicemanagement.admin
 # Enable Google Drive API
 https://cloud.google.com/service-infrastructure/docs/service-management/reference/rest/v1/services/enable
 ServiceName: drive.googleapis.com
+
 
 I will add a Windows Form project C#
