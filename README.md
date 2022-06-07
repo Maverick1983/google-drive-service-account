@@ -35,12 +35,12 @@ roles/owner
 
 # Add rule to Resource Service Account
 https://cloud.google.com/iam/docs/granting-roles-to-service-accounts#granting_access_to_a_service_account_for_a_resource
-roles/owner
-roles/servicemanagement.admin
+- roles/owner
+- roles/servicemanagement.admin
 
 # Enable Google Drive API
 https://cloud.google.com/service-infrastructure/docs/service-management/reference/rest/v1/services/enable
-ServiceName: drive.googleapis.com
+- ServiceName: drive.googleapis.com
 
 
 I will add a Windows Form project C#
