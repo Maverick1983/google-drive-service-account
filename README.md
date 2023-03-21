@@ -17,28 +17,28 @@ https://cloud.google.com/resource-manager/docs/creating-managing-projects
 - Every project can have 100 Service Account
 - Every Service Account can have 15 GB in Drive
 
-# Total space on Drive with one Google Cloud account: (100 x 15) x 30 = 45 TB
+**Total space on Drive with one Google Cloud account: (100 x 15) x 30 = 45 TB**
 
 
-# Creation Project’s Service Account
++ Creation Project’s Service Account
 https://cloud.google.com/iam/docs/creating-managing-service-accounts#iam-service-accounts-create-rest
 
-# Max 100 Service Account per Project
++ Max 100 Service Account per Project
 https://cloud.google.com/iam/docs/service-accounts 
 
-# Creation Keys for Service Account
++ Creation Keys for Service Account
 https://cloud.google.com/iam/docs/creating-managing-service-account-keys#iam-service-account-keys-create-rest 
 
-# Adding role to the Project on Service Account
++ Adding role to the Project on Service Account
 https://cloud.google.com/iam/reference/rest/v1/projects.serviceAccounts/setIamPolicy 
 roles/owner
 
-# Add rule to Resource Service Account
++ Add rule to Resource Service Account
 https://cloud.google.com/iam/docs/granting-roles-to-service-accounts#granting_access_to_a_service_account_for_a_resource
 - roles/owner
 - roles/servicemanagement.admin
 
-# Enable Google Drive API
++ Enable Google Drive API
 https://cloud.google.com/service-infrastructure/docs/service-management/reference/rest/v1/services/enable
 - ServiceName: drive.googleapis.com
 
