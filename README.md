@@ -21,26 +21,26 @@ https://cloud.google.com/resource-manager/docs/creating-managing-projects
 
 
 + Creation Project’s Service Account
-https://cloud.google.com/iam/docs/creating-managing-service-accounts#iam-service-accounts-create-rest
+  - https://cloud.google.com/iam/docs/creating-managing-service-accounts#iam-service-accounts-create-rest
 
 + Max 100 Service Account per Project
 https://cloud.google.com/iam/docs/service-accounts 
 
 + Creation Keys for Service Account
-https://cloud.google.com/iam/docs/creating-managing-service-account-keys#iam-service-account-keys-create-rest 
+  - https://cloud.google.com/iam/docs/creating-managing-service-account-keys#iam-service-account-keys-create-rest 
 
 + Adding role to the Project on Service Account
-https://cloud.google.com/iam/reference/rest/v1/projects.serviceAccounts/setIamPolicy 
-roles/owner
+  - https://cloud.google.com/iam/reference/rest/v1/projects.serviceAccounts/setIamPolicy 
+  - roles/owner
 
 + Add rule to Resource Service Account
-https://cloud.google.com/iam/docs/granting-roles-to-service-accounts#granting_access_to_a_service_account_for_a_resource
- - roles/owner
- - roles/servicemanagement.admin
+  - https://cloud.google.com/iam/docs/granting-roles-to-service-accounts#granting_access_to_a_service_account_for_a_resource
+  - roles/owner
+  - roles/servicemanagement.admin
 
 + Enable Google Drive API
-https://cloud.google.com/service-infrastructure/docs/service-management/reference/rest/v1/services/enable
-- ServiceName: drive.googleapis.com
+  - https://cloud.google.com/service-infrastructure/docs/service-management/reference/rest/v1/services/enable
+  - ServiceName: drive.googleapis.com
 
 
 I will add a Windows Form project C#
