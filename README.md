@@ -7,7 +7,7 @@ It is possible to use Google Cloud, for free, and use Google Drive up to 45 TB, 
 https://docs.google.com/document/d/1PEBrzBDQJRsKWTYnjzrp8eL1H7TzVQdIqrhLprTyrqs/edit?usp=sharing
 
 
-Note
+# Note
 The owner account appears to be the one who uploaded the file. In other words, if a folder is shared by someone else, giving you read/write access to the folder, but you upload a 2GB file to it, then the 2GB file is owned by you and goes against your storage limit; not the storage limit of the folder owner.
 
 
